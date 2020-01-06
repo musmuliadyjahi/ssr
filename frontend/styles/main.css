@@ -1,0 +1,173 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #ffffff;
+  color: #707070;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #FF9E53 !important;
+}
+
+.btn-login {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #FF8C33;
+  color: #ffffff;
+}
+
+header {
+  padding: 220px 0 206px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-view-menu {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+header .btn-view-menu:hover {
+  background-color: #FF8C33;
+  color: #ffffff;
+}
+
+.section-benefit {
+  min-height: 768;
+  margin-top: 50px;
+}
+
+.section-benefit-heading {
+  margin-top: 50px;
+}
+
+.section-benefit-heading h2,
+.section-benefit-heading p {
+  color: #707070;
+}
+
+.section-benefit-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.section-benefit-heading p {
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.section-benefit .section-benefit-card .card-1 {
+  margin-top: 200px;
+  position: absolute;
+}
+
+.section-benefit .section-benefit-card .card-2 {
+  margin-top: 50px;
+  position: absolute;
+}
+
+.section-benefit .section-benefit-card .card-3 {
+  margin-top: 270px;
+  position: absolute;
+}
+
+.section-benefit .section-benefit-card .card-benefit {
+  min-height: 250px;
+}
+
+.section-special {
+  margin-top: 260px;
+}
+
+.section-special .section-special-heading {
+  margin-top: 50px;
+}
+
+.section-special .section-special-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.section-special .section-special-heading p {
+  font-size: 20px;
+  margin-top: 23px;
+}
+
+.section-special-content .section-special-package .card-special .border {
+  margin-top: -40px;
+  color: white;
+  background-color: #FF9E53;
+}
+
+.section-special-content .section-special-package .card-special .btn-order {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.section-special-content .section-special-package .card-special .btn-idr {
+  color: #FF9E53;
+}
+
+.section-menu {
+  margin-top: 60px;
+}
+
+.section-menu .section-menu-heading {
+  margin-top: 50px;
+}
+
+.section-menu .section-menu-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.section-menu .section-menu-heading p {
+  font-size: 20px;
+  margin-top: 23px;
+}
+
+.section-menu-content .section-menu-package .card-menu .border {
+  margin-top: -40px;
+  color: white;
+  background-color: #FF9E53;
+}
+
+.section-menu-content .section-menu-package .card-menu .btn-order {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.section-menu-content .section-menu-package .card-menu .btn-idr {
+  color: #FF9E53;
+}
+/*# sourceMappingURL=main.css.map */

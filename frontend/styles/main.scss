@@ -1,0 +1,178 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    // font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
+    color: #707070;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #ffffff;
+            &.active {
+                font-weight: bold;
+                color: #FF9E53 !important;
+            }
+        }
+    }
+}
+
+.btn-login {
+    background-color: #FF9E53;
+    color: #ffffff;
+    &:hover {
+        background-color: #FF8C33;
+        color: #ffffff;
+    }
+}
+
+// Header
+header {
+    padding: 220px 0 206px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    h1,
+    p {
+        color: #ffffff;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .btn-view-menu {
+        background-color: #FF9E53;
+        color: #ffffff;
+        &:hover {
+            background-color: #FF8C33;
+            color: #ffffff;
+        }
+    }
+}
+
+// benefit
+.section-benefit {
+    min-height: 768;
+    margin-top: 50px;
+}
+
+.section-benefit-heading {
+    margin-top: 50px;
+    h2,
+    p {
+        color: #707070;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+}
+
+.section-benefit {
+    .section-benefit-card {
+        .card-1 {
+            margin-top: 200px;
+            position: absolute;
+        }
+        .card-2 {
+            margin-top: 50px;
+            position: absolute;
+        }
+        .card-3 {
+            margin-top: 270px;
+            position: absolute;
+        }
+        .card-benefit {
+            min-height: 250px;
+            ;
+        }
+    }
+}
+
+//special
+.section-special {
+    margin-top: 260px;
+    .section-special-heading {
+        margin-top: 50px;
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 23px;
+        }
+    }
+}
+
+.section-special-content {
+    .section-special-package {
+        .card-special {
+            .border {
+                margin-top: -40px;
+                color: white;
+                background-color: #FF9E53;
+            }
+            .btn-order {
+                background-color: #FF9E53;
+                color: #ffffff;
+            }
+            .btn-idr {
+                color: #FF9E53;
+            }
+        }
+    }
+}
+
+//menu
+.section-menu {
+    margin-top: 60px;
+    .section-menu-heading {
+        margin-top: 50px;
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 23px;
+        }
+    }
+}
+
+.section-menu-content {
+    .section-menu-package {
+        .card-menu {
+            .border {
+                margin-top: -40px;
+                color: white;
+                background-color: #FF9E53;
+            }
+            .btn-order {
+                background-color: #FF9E53;
+                color: #ffffff;
+            }
+            .btn-idr {
+                color: #FF9E53;
+            }
+        }
+    }
+}
